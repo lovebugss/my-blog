@@ -1,0 +1,22 @@
+.top-header{
+    position: relative;
+    font-size: 14px;
+    color: #333;
+    background: #333;
+    padding: 10px 0;
+}
+
+.container{
+    /*width: 1170px;*/
+}
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.top-search{
+    max-width: 300px;
+    float: right;
+}

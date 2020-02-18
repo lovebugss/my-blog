@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.custom-background{
+  background-image: url(https://demo.canyonthemes.com/bloge/wp-content/uploads/sites/14/2018/04/vertical-waves.png);
+  background-position: left top;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
