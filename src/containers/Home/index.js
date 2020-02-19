@@ -10,7 +10,10 @@ export default () => {
             <TopHeader/>
             <Header></Header>
             <Banner></Banner>
-            <Content></Content>
+            <div className="content">
+
+                <Content></Content>
+            </div>
         </div>
     )
 }
