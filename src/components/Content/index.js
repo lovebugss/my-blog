@@ -4,6 +4,7 @@ import {
 } from "react-bootstrap";
 import Boxed from './Boxed'
 import './index.css'
+import {Secondary} from "../index";
 
 const generatorAriList = (data) => {
     return data
@@ -25,7 +26,7 @@ export default () => {
         "author": "renjp",
         "ctr": "100",
         "tag": "JAVA",
-        "content": "哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈",
+        "content": "哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈",
         "url": "#",
         "imageUrl": "https://demo.canyonthemes.com/bloge/wp-content/uploads/sites/14/2017/11/men-2425121_12801.jpg",
     }, {
@@ -49,6 +50,7 @@ export default () => {
                         {c}
                     </Col>
                     <Col xm={0} xl={4}>
+                        <Secondary/>
 
                     </Col>
                 </Row>

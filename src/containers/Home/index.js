@@ -1,6 +1,6 @@
 import React from "react";
 import {
-    TopHeader, Header, Banner, Content
+    TopHeader, Header, Banner, Content, Secondary
 } from "../../components/";
 import './index.css'
 
