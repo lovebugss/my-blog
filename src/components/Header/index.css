@@ -1,0 +1,10 @@
+.header-lower{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background: #ffffff;
+    z-index: 5;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+}

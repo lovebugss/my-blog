@@ -3,10 +3,11 @@ import React from "react";
 import {
     Carousel, Container
 } from 'react-bootstrap'
+import './index.css'
 
 export default () => {
     return (
-        <div>
+        <div className="owl-wrapper">
             <Container>
                 <Carousel>
                     <Carousel.Item>

@@ -45,6 +45,8 @@ const TopHeader = (props) => {
                 <Container>
                     <Row>
                         <Col xl={3}>
+
+
                             <div className={"header-date"}>
                                 <span>
                                     <i className={"fa fa-calendar"}></i>2020-02-16 15:30:01
@@ -53,11 +55,13 @@ const TopHeader = (props) => {
                         </Col>
                         <Col xl={6}>
                             <Col sm={12}>
-                                <a href="#">
-                                    <Image
-                                        src="https://demo.canyonthemes.com/bloge/wp-content/uploads/sites/14/2018/04/blogep-free.png"
-                                    />
-                                </a>
+                                <div className={"logo-header-inner"}>
+                                    <a href="#">
+                                        <Image
+                                            src="https://demo.canyonthemes.com/bloge/wp-content/uploads/sites/14/2018/04/blogep-free.png"
+                                        />
+                                    </a>
+                                </div>
                             </Col>
                         </Col>
                         <Col xl={3}>

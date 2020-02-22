@@ -2,10 +2,11 @@ import React from "react";
 import {
     Navbar, Nav, NavDropdown, Container
 } from 'react-bootstrap'
+import './index.css'
 
 const Index = () => {
     return (
-        <div>
+        <div className="header-lower">
             <Container>
 
 
